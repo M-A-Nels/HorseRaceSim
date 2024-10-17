@@ -1,5 +1,6 @@
+
 /**
- * The `Horse` class represents a horse in a horse race simulator
+ * The `Horse` class represents a horse in a horse race simulator 
  * particularly the horse race in the associated Race Class.
  * It stores the horse's name, symbol in race, distance traveled, fallen status, and confidence level.
  * The class provides methods to update and retrieve the horse's information.
@@ -8,15 +9,20 @@
  * @author Madison Nelson
  * @version 1.0
  */
-public class Horse {
+public class Horse
+{
     //Fields of class Horse
-    private String HorseName;
+    private final String HorseName;
     private char HorseSymbol;
     private int DistanceHorseTravelled;
     private boolean HasHorseFallen;
     private double HorseConfidence;
 
+
     //Constructor of class Horse
+    /**
+     * Constructor for objects of class Horse
+     */
     public Horse(char horseSymbol, String horseName, double horseConfidence)
     {
         this.HorseName = horseName;
@@ -24,6 +30,7 @@ public class Horse {
         this.setConfidence(horseConfidence);
         this.DistanceHorseTravelled = 0;
         this.HasHorseFallen = false;
+
     }
 
     private void setDistanceHorseTravelled(int distanceHorseTravelled)
@@ -100,6 +107,5 @@ public class Horse {
     {
         this.HorseSymbol = newSymbol;
     }
+
 }
-
-

@@ -5,7 +5,7 @@ import java.lang.Math;
  * A three-horse race, each horse running in its own lane
  * for a given distance
  *
- * @author McFarewell
+ * @author McFarewell / Nelson
  * @version 1.0
  */
 public class Race
@@ -152,9 +152,7 @@ public class Race
             //wait for 100 milliseconds
             try{
                 TimeUnit.MILLISECONDS.sleep(100);
-            }
-            catch
-            (Exception ignored){}
+            }catch(Exception ignored){}
         }
     }
 
