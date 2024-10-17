@@ -1,0 +1,10 @@
+Horse1 0.1 4
+Horse2 0.1 Q
+Horse3 0.1 W
+Horse4 0.3 E
+Horse5 0.8 R
+Horse6 0.6 T
+Horse7 0.2 Y
+Horse8 0.3 U
+Horse9 0.8 I
+Horse10 0.6 O
