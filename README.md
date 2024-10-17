@@ -1,6 +1,6 @@
 **Horse Race Simulator**
 
-This project, while not fully refined, serves as a demonstration of foundational Java skills in both textual and graphical formats.
+This project, while not fully refined, serves as a demonstration of Java skills in both textual and graphical formats.
 
 This project is a Horse Race Simulator created as part of the ECS414U module. It showcases Java skills with an emphasis on Object-Oriented Programming (OOP) principles and includes a basic Graphical User Interface (GUI). The project is divided into two parts: a text-based version with limited features, and a graphical version with more advanced functionality.
 
